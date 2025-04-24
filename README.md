@@ -1,67 +1,58 @@
-<<<<<<< HEAD
-# Aero Weather ✈️
+# AeroWeather ✈️
 
-Aero Weather is a weather app that fetches real-time weather data for the nearest airport based on your location. It displays key weather information such as temperature, wind speed, humidity, and more. Built for aviation enthusiasts and travelers.
+AeroWeather is a weather tracking web app that provides real-time weather data for your location and the nearest airport. It uses the OpenWeatherMap API to fetch weather details such as temperature, wind speed, humidity, visibility, cloud cover, and pressure.
 
-## 🏠 Current Location:
-- **Location**: Bāneswar, NP
-- **Temp**: 18.89 °C
-- **Wind**: 114° at 3.2 kt
-- **Humidity**: 18%
-- **Visibility**: 10.0 km
-- **Cloud Cover**: 0%
-- **Pressure**: 1009 hPa
+## Features
 
-## 🔧 Features:
-- Fetches weather data for your nearest airport.
-- Displays temperature, humidity, wind speed, and more.
-- Simple and user-friendly interface.
+- Get current weather data for your location.
+- Fetch weather data for the nearest airport.
+- Displays the following weather information:
+  - Temperature (°C)
+  - Wind speed and direction (in knots)
+  - Humidity (%)
+  - Visibility (km)
+  - Cloud cover (%)
+  - Atmospheric pressure (hPa)
 
-## 🛠️ Technologies Used:
-- HTML
-- CSS
-- JavaScript
-- OpenWeatherMap API
+## Tech Stack
 
-## 🚀 Setup Instructions:
+- **Frontend:** HTML, CSS, JavaScript
+- **API:** OpenWeatherMap API
 
-### Prerequisites:
-- Install Node.js and npm (Node Package Manager) if you haven't already. You can download it from [here](https://nodejs.org/).
+## Installation
 
-### Steps:
-1. Clone this repository:
+1. Clone this repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/aero-weather.git
-    cd aero-weather
+    git clone https://github.com/shubhamlc/AeroWeather.git
     ```
 
-2. Install required dependencies:
+2. Navigate to the project directory:
     ```bash
-    npm install
+    cd AeroWeather
     ```
 
-3. Replace the `YOUR_API_KEY_HERE` in `config.example.js` with your actual OpenWeatherMap API key and save it as `config.js`.
+3. Open `index.html` in your browser to start using the app.
 
-4. Run the app in your browser:
-    Open `index.html` in your browser.
+## Setup API Key
 
-## ⚙️ Configuration:
-1. Rename `config.example.js` to `config.js`.
-2. Insert your OpenWeatherMap API key in the `config.js` file:
+1. Sign up at [OpenWeatherMap](https://openweathermap.org/api) and get your API key.
+2. Create a `config.js` file in the project root directory and add your API key:
     ```js
-    const apiKey = "YOUR_API_KEY_HERE";
+    const apiKey = 'your-api-key-here';
     ```
 
-## 📱 Contact & Links:
-- Built by [Shubham Lamichhane](https://github.com/yourusername)
-- Instagram: [@shubham__lc](https://instagram.com/yourusername)
-- GitHub: [@shubhamlc](https://github.com/yourusername)
+3. Make sure your `config.js` file is added to `.gitignore` to keep your API key private.
 
-## 💡 Future Enhancements:
-- Add more advanced weather information.
-- Implement user authentication.
-- Mobile app version.
+## Contributing
 
-=======
-# AeroWeather
->>>>>>> cb9fe58d2c295c066da3f446d3b10b152542ae70
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Built By
+
+- **Shubham Lamichhane**  
+    - Instagram: [@shubhamlc](https://www.instagram.com/shubhamlc/)
+    - GitHub: [@shubhamlc](https://github.com/shubhamlc)
