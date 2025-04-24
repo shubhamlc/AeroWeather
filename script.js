@@ -39,8 +39,16 @@ async function displayWeather(data) {
   const visibilityKm = (data.visibility / 1000).toFixed(1); // Convert meters to kilometers
   const pressureHpa = data.main.pressure;
 
+  // Main city and country handling
+  const city = data.name;
+  const country = data.sys.country;
+
+  // We want to show Kathmandu for locations in Nepal and the full country name
+  const displayCity = (country === "NP") ? "Kathmandu" : city; // Default to Kathmandu if in Nepal
+  const displayCountry = getFullCountryName(country); // Get the full country name
+  
   document.getElementById("weather").innerHTML = `
-    <h2>${data.name}, ${data.sys.country}</h2>
+    <h2>${displayCity}, ${displayCountry}</h2>
     <p>🌡️ Temp: ${data.main.temp} °C</p>
     <p>💨 Wind: ${data.wind.deg}° at ${windSpeedKts} kt</p>
     <p>💧 Humidity: ${data.main.humidity}%</p>
@@ -48,6 +56,18 @@ async function displayWeather(data) {
     <p>☁️ Cloud Cover: ${data.clouds.all}%</p>
     <p>📈 Pressure: ${pressureHpa} hPa</p>
   `;
+}
+
+// Convert country code to full country name
+function getFullCountryName(countryCode) {
+  const countryNames = {
+    "NP": "Nepal", // Nepal
+    "US": "United States", // United States
+    "IN": "India", // India
+    "GB": "United Kingdom", // United Kingdom
+    // Add other country codes and names here as needed
+  };
+  return countryNames[countryCode] || countryCode; // Default to code if not found
 }
 
 // Button click event to fetch weather by airport ICAO code
