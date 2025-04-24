@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aero Weather ✈️
 
 Aero Weather is a weather app that fetches real-time weather data for the nearest airport based on your location. It displays key weather information such as temperature, wind speed, humidity, and more. Built for aviation enthusiasts and travelers.
@@ -61,3 +62,6 @@ Aero Weather is a weather app that fetches real-time weather data for the neares
 - Implement user authentication.
 - Mobile app version.
 
+=======
+# AeroWeather
+>>>>>>> cb9fe58d2c295c066da3f446d3b10b152542ae70
