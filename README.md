@@ -47,12 +47,9 @@ AeroWeather is a weather tracking web app that provides real-time weather data f
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Built By
 
 - **Shubham Lamichhane**  
-    - Instagram: [@shubhamlc](https://www.instagram.com/shubhamlc/)
+    - Instagram: [@shubhamlc](https://www.instagram.com/shubham__lc/)
     - GitHub: [@shubhamlc](https://github.com/shubhamlc)
