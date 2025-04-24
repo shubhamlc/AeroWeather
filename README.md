@@ -51,5 +51,5 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 ## Built By
 
 - **Shubham Lamichhane**  
-    - Instagram: [@shubhamlc](https://www.instagram.com/shubham__lc/)
+    - Instagram: [shubham__lc](https://www.instagram.com/shubham__lc/)
     - GitHub: [@shubhamlc](https://github.com/shubhamlc)
